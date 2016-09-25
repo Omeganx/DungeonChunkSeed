@@ -45,12 +45,12 @@ public class DungeonSeed {
 	public static void lakeGenerator(RanD ran){
 		int i2 = ran.nextInteger(4) + 4;
     	
-    	for (int j2 = 0; j2 < i2; ++j2)
-        {
-    		for(int count = 0; count<6; count++){
-        		@SuppressWarnings("unused")
-				double useless = ran.nextDouble();
-        	}
-        }
+		for (int j2 = 0; j2 < i2; ++j2)
+		{
+			for(int count = 0; count<6; count++){
+				@SuppressWarnings("unused")
+					double useless = ran.nextDouble();
+			}
+		}
 	}
 }
