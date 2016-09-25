@@ -4,10 +4,10 @@ public class DungeonSeed {
 
 	@SuppressWarnings("unused")
 	public static long getDungeonSeed(int chunk_x, int chunk_z, long seed){
-		 
-		RanD ran = new RanD();
-		
-		int posx = chunk_x * 16;
+
+	    RanD ran = new RanD();
+
+	    int posx = chunk_x * 16;
 	    int posz = chunk_z * 16;
 	    ran.initSeed(seed);
 	    
@@ -34,10 +34,7 @@ public class DungeonSeed {
 	        if (l2 < 63 || ran.nextInteger(80 / 8) == 0){
 	        	lakeGenerator(ran);
 	        }
-	        
-		}
-	    
-	    
+	    }
 	    return ran.getSeed();
 	} 
 	
