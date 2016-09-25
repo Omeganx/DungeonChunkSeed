@@ -49,7 +49,7 @@ public class DungeonSeed {
 		{
 			for(int count = 0; count<6; count++){
 				@SuppressWarnings("unused")
-					double useless = ran.nextDouble();
+				double useless = ran.nextDouble();
 			}
 		}
 	}
